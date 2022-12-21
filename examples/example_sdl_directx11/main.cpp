@@ -24,7 +24,7 @@ void CreateRenderTarget();
 void CleanupRenderTarget();
 
 // Main code
-int main(int, char**)
+int main(int argc, char *argv[])
 {
     // Setup SDL
     // (Some versions of SDL before <2.0.10 appears to have performance/stalling issues on a minority of Windows systems,
